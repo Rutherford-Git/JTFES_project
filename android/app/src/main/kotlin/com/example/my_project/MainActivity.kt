@@ -1,4 +1,4 @@
-package com.mycompany.jtfesdirectory
+package com.rutherford.jtfesdemo
 
 import io.flutter.embedding.android.FlutterActivity
 

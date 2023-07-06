@@ -91,8 +91,12 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                               children: [
                                 Text(
                                   'Create an account',
-                                  style:
-                                      FlutterFlowTheme.of(context).displaySmall,
+                                  style: FlutterFlowTheme.of(context)
+                                      .displaySmall
+                                      .override(
+                                        fontFamily: 'Outfit',
+                                        color: Colors.black,
+                                      ),
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
@@ -119,8 +123,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                             .labelMedium,
                                         enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryBackground,
+                                            color: Color(0xFFF1F4F8),
                                             width: 2.0,
                                           ),
                                           borderRadius:
@@ -154,8 +157,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               BorderRadius.circular(12.0),
                                         ),
                                         filled: true,
-                                        fillColor: FlutterFlowTheme.of(context)
-                                            .primaryBackground,
+                                        fillColor: Color(0xFFF1F4F8),
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium,
@@ -182,8 +184,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                             .labelMedium,
                                         enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryBackground,
+                                            color: Color(0xFFF1F4F8),
                                             width: 2.0,
                                           ),
                                           borderRadius:
@@ -217,8 +218,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               BorderRadius.circular(12.0),
                                         ),
                                         filled: true,
-                                        fillColor: FlutterFlowTheme.of(context)
-                                            .primaryBackground,
+                                        fillColor: Color(0xFFF1F4F8),
                                         suffixIcon: InkWell(
                                           onTap: () => setState(
                                             () => _model.passwordVisibility =
@@ -262,8 +262,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                             .labelMedium,
                                         enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryBackground,
+                                            color: Color(0xFFF1F4F8),
                                             width: 2.0,
                                           ),
                                           borderRadius:
@@ -297,8 +296,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                               BorderRadius.circular(12.0),
                                         ),
                                         filled: true,
-                                        fillColor: FlutterFlowTheme.of(context)
-                                            .primaryBackground,
+                                        fillColor: Color(0xFFF1F4F8),
                                         suffixIcon: InkWell(
                                           onTap: () => setState(
                                             () => _model

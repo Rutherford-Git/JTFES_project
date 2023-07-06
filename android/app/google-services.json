@@ -40,10 +40,54 @@
               "client_type": 3
             },
             {
-              "client_id": "1033417766275-g02qofejvnbl49tjrnbobe974p5rr7c7.apps.googleusercontent.com",
+              "client_id": "1033417766275-1pbets4jlqk2cptnvl3trd4q09c7b6s5.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.mycompany.jtfesdirectory"
+                "bundle_id": "com.rutherford.jtfesdemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033417766275:android:1c56219a70c10e0c97f2b6",
+        "android_client_info": {
+          "package_name": "com.rutherford.jtfesdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033417766275-5ka5780i3i0og4l7p3bvo7rm2ajb6e4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rutherford.jtfesdemo",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1033417766275-5sgcjsd4urje2jm4a1nrgccq5bp5m5u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy1G3FY2-r-D7LGvnaGo9ALM-ThUYzr1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033417766275-5sgcjsd4urje2jm4a1nrgccq5bp5m5u9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1033417766275-1pbets4jlqk2cptnvl3trd4q09c7b6s5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rutherford.jtfesdemo"
               }
             }
           ]

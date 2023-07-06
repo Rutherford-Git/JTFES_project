@@ -208,7 +208,12 @@ class _Onboarding1WidgetState extends State<Onboarding1Widget>
                             EdgeInsetsDirectional.fromSTEB(0.0, 44.0, 0.0, 0.0),
                         child: Text(
                           'Welcome!',
-                          style: FlutterFlowTheme.of(context).displaySmall,
+                          style: FlutterFlowTheme.of(context)
+                              .displaySmall
+                              .override(
+                                fontFamily: 'Outfit',
+                                color: Colors.black,
+                              ),
                         ).animateOnPageLoad(
                             animationsMap['textOnPageLoadAnimation1']!),
                       ),
@@ -218,7 +223,11 @@ class _Onboarding1WidgetState extends State<Onboarding1Widget>
                         child: Text(
                           'JTFES directory demo',
                           textAlign: TextAlign.center,
-                          style: FlutterFlowTheme.of(context).labelMedium,
+                          style:
+                              FlutterFlowTheme.of(context).labelMedium.override(
+                                    fontFamily: 'Readex Pro',
+                                    color: Colors.black,
+                                  ),
                         ).animateOnPageLoad(
                             animationsMap['textOnPageLoadAnimation2']!),
                       ),
@@ -253,7 +262,11 @@ class _Onboarding1WidgetState extends State<Onboarding1Widget>
                                 0.0, 0.0, 0.0, 0.0),
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
-                            textStyle: FlutterFlowTheme.of(context).bodyLarge,
+                            textStyle:
+                                FlutterFlowTheme.of(context).bodyLarge.override(
+                                      fontFamily: 'Readex Pro',
+                                      color: Colors.black,
+                                    ),
                             elevation: 0.0,
                             borderSide: BorderSide(
                               color: FlutterFlowTheme.of(context).alternate,

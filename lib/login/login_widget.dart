@@ -89,8 +89,12 @@ class _LoginWidgetState extends State<LoginWidget> {
                               children: [
                                 Text(
                                   'Welcome Back',
-                                  style:
-                                      FlutterFlowTheme.of(context).displaySmall,
+                                  style: FlutterFlowTheme.of(context)
+                                      .displaySmall
+                                      .override(
+                                        fontFamily: 'Outfit',
+                                        color: Colors.black,
+                                      ),
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
@@ -117,8 +121,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                             .labelMedium,
                                         enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryBackground,
+                                            color: Color(0xFFF1F4F8),
                                             width: 2.0,
                                           ),
                                           borderRadius:
@@ -152,8 +155,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               BorderRadius.circular(12.0),
                                         ),
                                         filled: true,
-                                        fillColor: FlutterFlowTheme.of(context)
-                                            .primaryBackground,
+                                        fillColor: Color(0xFFF1F4F8),
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium,
@@ -180,8 +182,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                             .labelMedium,
                                         enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryBackground,
+                                            color: Color(0xFFF1F4F8),
                                             width: 2.0,
                                           ),
                                           borderRadius:
@@ -215,8 +216,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                               BorderRadius.circular(12.0),
                                         ),
                                         filled: true,
-                                        fillColor: FlutterFlowTheme.of(context)
-                                            .primaryBackground,
+                                        fillColor: Color(0xFFF1F4F8),
                                         suffixIcon: InkWell(
                                           onTap: () => setState(
                                             () => _model.passwordVisibility =
@@ -319,7 +319,12 @@ class _LoginWidgetState extends State<LoginWidget> {
                                         )
                                       ],
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyMedium,
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Readex Pro',
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondaryText,
+                                          ),
                                     ),
                                   ),
                                 ),

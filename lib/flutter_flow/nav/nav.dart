@@ -112,19 +112,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => Onboarding2Widget(),
         ),
         FFRoute(
-          name: 'Auth1',
-          path: '/auth1',
-          builder: (context, params) => Auth1Widget(),
-        ),
-        FFRoute(
           name: 'login',
           path: '/login',
           builder: (context, params) => LoginWidget(),
-        ),
-        FFRoute(
-          name: 'test',
-          path: '/test',
-          builder: (context, params) => TestWidget(),
         ),
         FFRoute(
           name: 'PolicyPage',
@@ -175,6 +165,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Gifts',
           path: '/gifts',
           builder: (context, params) => GiftsWidget(),
+        ),
+        FFRoute(
+          name: 'cominsoon',
+          path: '/cominsoon',
+          builder: (context, params) => CominsoonWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

@@ -140,6 +140,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                                 fontWeight: FontWeight.w500,
                                               ),
@@ -230,6 +233,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -319,6 +325,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -408,6 +417,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -497,6 +509,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -586,6 +601,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -675,6 +693,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -764,6 +785,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -853,6 +877,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),
@@ -952,6 +979,9 @@ class _PolicyPageWidgetState extends State<PolicyPageWidget> {
                                               .headlineSmall
                                               .override(
                                                 fontFamily: 'Outfit',
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
                                                 fontSize: 16.0,
                                               ),
                                         ),

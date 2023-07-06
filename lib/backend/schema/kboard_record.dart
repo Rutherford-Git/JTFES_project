@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:collection/collection.dart';
+
 import '/backend/schema/util/firestore_util.dart';
 import '/backend/schema/util/schema_util.dart';
 
@@ -66,4 +68,19 @@ Map<String, dynamic> createKboardRecordData({
   );
 
   return firestoreData;
+}
+
+class KboardRecordDocumentEquality implements Equality<KboardRecord> {
+  const KboardRecordDocumentEquality();
+
+  @override
+  bool equals(KboardRecord? e1, KboardRecord? e2) {
+    return e1?.kboard == e2?.kboard;
+  }
+
+  @override
+  int hash(KboardRecord? e) => const ListEquality().hash([e?.kboard]);
+
+  @override
+  bool isValidKey(Object? o) => o is KboardRecord;
 }
